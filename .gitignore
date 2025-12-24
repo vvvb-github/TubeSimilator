@@ -2,3 +2,4 @@ data
 temp
 .vscode
 settings.json
+**/__pycache__/**

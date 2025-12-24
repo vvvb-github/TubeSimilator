@@ -1,0 +1,73 @@
+grid:
+  rows:
+  - '| = C S = C S = = = = C I = |'
+  - '| | C = = C = C = = = C = | |'
+  - '| | = C = = = C = = C = = | |'
+  - '| = = C = = = = = = C = = = |'
+simulation:
+  base_count: 10
+  seed: 42
+  diverter_ticks_per_90: 1
+stations:
+- id: S_A
+  kind: S
+  projects:
+  - A
+  interaction_ticks: 3
+- id: S_B
+  kind: S
+  projects:
+  - B
+  interaction_ticks: 3
+io:
+  id: I
+  interaction_ticks: 5
+tube_arrivals:
+- time: 2
+  tube_id: T0000
+  project: A
+- time: 5
+  tube_id: T0001
+  project: A
+- time: 5
+  tube_id: T0002
+  project: A
+- time: 7
+  tube_id: T0003
+  project: A
+- time: 11
+  tube_id: T0004
+  project: A
+- time: 11
+  tube_id: T0005
+  project: A
+- time: 14
+  tube_id: T0006
+  project: B
+- time: 14
+  tube_id: T0007
+  project: A
+- time: 14
+  tube_id: T0008
+  project: B
+- time: 14
+  tube_id: T0009
+  project: A
+- time: 15
+  tube_id: T0010
+  project: A
+- time: 19
+  tube_id: T0011
+  project: B
+- time: 19
+  tube_id: T0012
+  project: A
+- time: 19
+  tube_id: T0013
+  project: A
+- time: 21
+  tube_id: T0014
+  project: B
+- time: 22
+  tube_id: T0015
+  project: A
